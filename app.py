@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
-DATA_PATH = r"C:\Users\HP\Desktop\StudentPerformanceProject\student.csv"  # adjust if needed
+DATA_PATH = "student.csv"  # Relative path - works both locally and on cloud
 MODEL_PATH = "student_rf.pkl"
 
 st.set_page_config(page_title="Student Prediction", layout="centered")

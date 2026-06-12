@@ -1,5 +1,41 @@
+# Virtual environment
 .venv/
+venv/
+env/
+
+# Python
 __pycache__/
-*.pyc
-*.csv
-student.csv
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Large data files (but keep sample student.csv)
+sample_*.csv
+large_*.csv
+*.xlsx
+
+# Streamlit cache
+.streamlit/
+*.streamlit
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Pytest
+.pytest_cache/
+
+# Environment
+.env
+.env.local
